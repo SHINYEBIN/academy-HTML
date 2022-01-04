@@ -1,0 +1,48 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+#newsWrap{
+    width: 700px;
+    margin: 10px auto;
+    border: 1px solid lightseagreen;
+}
+#newsWrap ul{
+    margin-right: 20px;
+    border-right: lpx solid lightpink;
+}
+#newsWrap ul li{  
+    height: 40px;
+    background: url(../image/bullet.jpg) no repeat 10px;
+}
+#newsWrap ul li a{
+    display: block;
+    width: 500px;
+    height: 40px;
+    text-indent: 35px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+#newsWrap ul li span{
+    float: right;
+    line-height: 40px;
+}
+#newsWrap ul li a:hover{
+    color: #0400ff;
+    text-shadow: 0 0 5px #ff6565;
+}
+#newsWrap ul li a:hover+span{
+    color: #0400ff;
+    text-shadow: 0 0 5px #ff6565;
+}
+
