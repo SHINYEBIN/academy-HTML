@@ -1,0 +1,161 @@
+ 
+/*12월 30일
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#header {}
+#header .logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background: #888;
+}
+#header .nav {
+    float: left;
+    width: 950px;
+    height: 100px;
+    background: #777;
+}
+#banner {
+    height: 300px;
+    background: #666;
+}
+#contents {}
+#contents > div{float: left; width: 400px; height: 200px;}
+#contents > div.cont1{background: #555;}
+#contents > div.cont2{background: #444;}
+#contents > div.cont3{background: #333;}
+
+#footer {}
+#footer .foot1{float: left; width: 200px; height: 100px; background:#888;}
+#footer .foot2{float: left; width: 800px; height: 100px; background: #777}
+#footer .foot3{float: left; width: 200px; height: 100px; background: #666} */
+
+
+/* 12월 31일 */
+/* div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px, solid #cccccc;
+    width: 800px;
+    text-align: center;
+}
+#con {
+    margin: 0 auto;
+    border: 1px solid #ccccc;
+}
+
+#header {
+    width: 780px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#nav {
+    width: 780px;
+}
+
+#nav ul {
+    overflow: hidden;
+}
+
+#nav ul li {
+    border: 1px solid #cccccc;
+    width: 138px;
+    height: 40px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+#wrap {
+    overflow: hidden;
+    width: 780px;
+}
+
+#content {
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+
+#banner {
+    float: left;
+    width: 135px;
+    height: 300px;
+}
+
+#footer {
+    width: 780px;
+    height: 100px;
+    line-height: 100px;
+} */
+
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+#side{
+    float: left;
+    width: 300px;
+    height: 850px;
+    background: #ccc;
+}
+#content{
+    float: left;
+    width: 900px;
+    height: 850px;
+    background: #ddd;
+}
+#side .logo{
+    width: 300px;
+    height: 150px;
+    background: #999;
+}
+#side .nav{
+    width: 300px;
+    height: 700px;
+    background: #888;
+}
+#banner{
+    width: 900px;
+    height: 450px;
+    background: #777;
+}
+#contents{}
+#contents > div.{
+    float: left;
+    width: 33.33333%;
+    height: 300px;
+}
+#contents > div.cont1{
+    background: #666;
+}
+#contents > div.cont2{
+    background: #555;
+}
+#contents > div.cont3{
+    background: #444;
+}
+#footer{}
+#footer .foot1{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: #333;
+}
+#footer .foot2{
+    float: left;
+    width: 700px;
+    height: 50px;
+    background: #222;
+}
+#footer .foot3{
+    float: left;
+    width: 700px;
+    height: 50px;
+    background: #111;
+}
