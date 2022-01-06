@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/formstyle.css">
+</head>
+<body>
+    태그 사용해서 스타일 적용하기<br>
+    <table>
+        <tr>
+            <td>스타일</td>
+        </tr>
+    </table>
+
+    <p>
+    <form>
+        아이디:<input type="text" name="아이디/"><br>
+        비밀번호:<input type="password" name="비번"><br>
+        성별: 남<input type="radio" name="성별" value="남자">
+        여<input type="radio" name="성별" value="여자">
+    </form> 
+    <p>
+    
+    <form>
+        좋아하는 음식<br>
+        짜장면<input type="checkbox" name="f1" value="짜장면">
+        탕수육<input type="checkbox" name="f2" value="탕수육">
+        짬뽕<input type="checkbox" name="f3" value="짬뽕">
+        칠리새우<input type="checkbox" name="f4" value="칠리새우">
+        파일입력<br>
+        <input type="file" name="file">
+    </form>
+    <br><br>
+    <form>
+    <table>
+        <tr>
+            <td><label for="username">이름</label></td>
+            <td><input id="username" type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>성별</td>
+            <td>
+                <input id="man" type="radio" name="성별" value="남자">
+                <label for="man">남자</label>
+                <input id="woman" type="radio" name="성별" value="여자">
+                <label for="woman">여자</label>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="회원가입">
+    </form>
+    <br><br>
+    <p>
+        <fieldset>
+            <legend><b>필드셋</b></legend>
+        
+        <select>
+         <option>1반</option>
+         <option>2반</option>
+         <option>3반</option>
+         <option>4반</option>
+         <option>5반</option>
+         <option>6반</option>
+        </select>    
+    </p>
+    <p>
+        <select multiple>
+            <option>1반</option>
+            <option>2반</option>
+            <option>3반</option>
+            <option>4반</option>
+            <option>5반</option>
+            <option>6반</option>
+        </select>
+        </fieldset>
+    </p>
+    <p>
+        <fieldset>
+            <legend><b>정보입력창</b></legend>
+        
+        <select>
+            <optgroup label="학년">
+                <option>1학년</option>
+                <option>2학년</option>
+                <option>3학년</option>
+            </optgroup>
+        </select>
+        
+        <select>
+            <optgroup label="반">
+                <option>1반</option>
+                <option>2반</option>
+                <option>3반</option>
+            </optgroup>
+        </select>
+        </fieldset>
+    </p>
+    <br>
+    <p>
+        <form>
+        <fieldset>
+            <legend><b>필드셋</b></legend>
+            <table>
+                <tr>
+                    <td><label for="id">아이디</label></td>
+                    <td><input id="id" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="pw">비밀번호</label></td>
+                    <td><input id="pw" type="password"></td>
+                </tr>
+            </table>
+            <input type="submit" value="제출">
+        </fieldset>
+        </form>
+    </p>
+</body>
+</html>
