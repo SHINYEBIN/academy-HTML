@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;}
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header .logo{
+    float: left;
+    width: 250px;
+    height: 100px;
+    background: green
+}
+#header .nav{
+    float: left;
+    width: 950px;
+    height: 100px;
+    background: orange;
+}
+#banner{
+    height: 300px;
+    background: yellow;
+}
+#contents > div{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+#contents > div.cont1{
+    background: lightskyblue;
+}
+#contents > div.cont2{
+    background: lightblue;
+}
+#contents > div.cont3{
+    background: lightsalmon;
+}
+#footer .foot1{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: rgb(185, 233, 89);
+}
+#footer .foot2{
+    float: left;
+    width: 800px;
+    height: 100px;
+    background: lightgray;
+}
+#footer .foot3{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: olive;
+}
